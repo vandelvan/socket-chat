@@ -1,4 +1,5 @@
-var socket = io.connect("https://socket-chvt.herokuapp.com/");
+var socket = io.connect("http://localhost:4000");
+//var socket = io.connect("https://socket-chvt.herokuapp.com/");
 
 var message = document.getElementById("message");
 var handle = document.getElementById("handle");
@@ -26,5 +27,5 @@ socket.on("chat", function (data) {
 });
 
 socket.on("typing", function (data) {
-  feedback.innerHTML = "<p><em>" + data.handle + "is typing...</em></p>";
+  feedback.innerHTML = "<p><em>" + data.handle + " is typing...</em></p>";
 });

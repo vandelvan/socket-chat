@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:4000");
+var socket = io.connect("https://socket-chvt.herokuapp.com/");
 
 var message = document.getElementById("message");
 var handle = document.getElementById("handle");

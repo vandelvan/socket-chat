@@ -3,8 +3,7 @@ const socket = require("socket.io");
 const port = process.env.PORT || 4000;
 
 var app = express();
-var server = app.listen(port, function () {
-});
+var server = app.listen(port, function () {});
 
 app.use(express.static("public"));
 
@@ -15,7 +14,7 @@ io.on("connection", function (socket) {
     io.sockets.emit("chat", data);
   });
 
-  socket.on("typing",function(data) {
-      socket.broadcast.emit("typing",data);
-  })
+  socket.on("typing", function (data) {
+    socket.broadcast.emit("typing", data);
+  });
 });

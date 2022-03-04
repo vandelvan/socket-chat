@@ -1,70 +1,78 @@
-body{
-    font-family: 'Nunito';
-    background-color: #1a1a1a;
+body {
+  font-family: "Nunito";
+  background-color: #1a1a1a;
 }
 
-h2{
-    font-size: 18px;
-    padding: 10px 20px;
-    color: #378E67;
+h1 {
+  color: #ddd;
 }
 
-#chat{
-    max-width: 600px;
-    margin: 30px auto;
-    border: 1px solid #2F2F2F;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
-    border-radius: 2px;
+a {
+  color: #42B883;
 }
 
-#window{
-    height: 400px;
-    overflow: auto;
-    background: #242424;
+h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #42B883;
 }
 
-#output p{
-    padding: 14px 0px;
-    margin: 0 20px;
-    border-bottom: 1px solid #2F2F2F;
-    color: #ddd;
+#chat {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #2f2f2f;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
 }
 
-#feedback p{
-    color: #aaa;
-    padding: 14px 0px;
-    margin: 0 20px;
+#window {
+  height: 300px;
+  overflow: auto;
+  background: #242424;
 }
 
-#output strong{
-    color: #378E67;
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #2f2f2f;
+  color: #ddd;
 }
 
-label{
-    box-sizing: border-box;
-    display: block;
-    padding: 10px 20px;
+#feedback p {
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
 }
 
-input{
-    padding: 10px 20px;
-    box-sizing: border-box;
-    background: #2F2F2F;
-    border: 0;
-    display: block;
-    width: 100%;
-    border-bottom: 1px solid #2F2F2F;
-    font-family: Nunito;
-    font-size: 16px;
-    color: #ddd;
+#output strong {
+  color: #42B883;
 }
 
-button{
-    background: #378E67;
-    color: #ddd;
-    font-size: 18px;
-    border: 0;
-    padding: 12px 0;
-    width: 100%;
-    border-radius: 0 0 2px 2px;
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+input {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #2f2f2f;
+  border: 0;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #2f2f2f;
+  font-family: Nunito;
+  font-size: 16px;
+  color: #ddd;
+}
+
+button {
+  background: #378e67;
+  color: #ddd;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
 }
